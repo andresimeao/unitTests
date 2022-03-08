@@ -1,0 +1,20 @@
+{
+    "name": "andre/phptestes",
+    "description": "curso teste unitarios",
+    "autoload": {
+        "psr-4": {
+            "CDC\\Loja\\": ["src/CDC/Loja", "tests/CDC/Loja"],
+            "CDC\\Exemplos\\":["src/CDC/Exemplos", "tests/CDC/Exemplos"]
+
+        }
+    },
+    "authors": [
+        {
+            "name": "andresimeao",
+            "email": "andresimeao@yahoo.com.br"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "4.*"
+    }
+}
