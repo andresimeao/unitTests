@@ -1,5 +1,5 @@
 <?php
-namespace CDC\Loja\Exemplo;
+/*namespace CDC\Loja\Exemplo;
 
 require_once __DIR__ . "\..\..\..\\vendor\autoload.php";
 
@@ -31,4 +31,4 @@ class CalcularSalarioTest extends PHPUnit
         $salario = $calculadora->calcularSalario($dba);
         $this->assertEquals(500.0 * 0.85, $salario, null, 0.00001);
     }
-}
+}*/
